@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint-nf": "vue-cli-service lint --no-fix"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "core-js": "^3.3.2",
+    "font-awesome": "^4.7.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -29,7 +32,20 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "indent": [
+        "error",
+        "tab"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
