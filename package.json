@@ -1,7 +1,7 @@
 {
   "name": "fullstack_vue_graphql_node_1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -58,5 +58,10 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": ". Gerador/combinador de nomes (prefixos e sufixos) - curso de Vue.JS - Rodrigo Branas .",
+  "main": "./src/main.js",
+  "repository": "https://github.com/kaichiro/hostgator.git",
+  "author": "kaichiro <kcfg23@gmail.com>",
+  "license": "MIT"
 }
